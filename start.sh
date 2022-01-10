@@ -1,3 +1,7 @@
+ #将jenkins加入docker组
+ sudo gpasswd -a jenkins docker
+ #重启jenkins服务
+ sudo service jenkins restart
 #拉取代码
 git pull
 echo "拉取代码成功"
